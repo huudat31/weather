@@ -9,7 +9,7 @@ class WeatherApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
         body: Center(child: myWidget()),
       ),
@@ -22,6 +22,15 @@ class myWidget extends StatelessWidget {
   const myWidget({super.key});
   @override
   Widget build(BuildContext context) {
-    return const Text('Lol anh duy');
+    return Text('Lol anh duy');
+  }
+}
+
+class MyWidget extends StatelessWidget {
+  const MyWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Placeholder();
   }
 }
